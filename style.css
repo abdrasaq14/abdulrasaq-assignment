@@ -1,0 +1,71 @@
+/* my stylehseet */
+*{
+    padding: 0 5px;
+    
+}
+/* heading style */
+.main-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 34px;
+
+}
+
+/* history style */
+.brief-history{
+    line-height: 1.5rem;
+    text-align: justify;
+
+}
+
+/* image style */
+.ahmadu-bello{
+    border-radius: 15px;
+}
+/* figure caption */
+figcaption{
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* quote style */
+.quote-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.quote{
+    line-height: 1.5rem;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 0;
+}
+.tagline{
+    margin-top: 0%;
+    padding-top: 0;
+    color: #909090;
+    font-style: italic;
+}
+.btn{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.readmore{
+    background-color: #e10000;
+    border-style: none;
+    border-radius: 10px;
+    padding: 20px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: 700;
+    transition: .5s ease-in-out;
+}
+.readmore:hover{
+    transform: scale(1.2);
+}
